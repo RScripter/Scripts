@@ -2,7 +2,7 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source"))()
 
 -- Create the main window
-local Window = OrionLib:MakeWindow({
+loclocalal Window = OrionLib:MakeWindow({
     Name = "•ECAX HUB•",
     HidePremium = false,
     SaveConfig = true,
@@ -168,6 +168,13 @@ UniversalTab:AddButton({
 UniversalTab:AddButton({
 	Name = "Rochips Panel V6.0",
 	Callback = function()
+      		
+  	end    
+})
+
+UniversalTab:AddButton({
+	Name = "Rochips Panel",
+	Callback = function()
       		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Rochips-Panel-V6-15097"))()
   	end    
 })
@@ -247,13 +254,6 @@ FeTab:AddButton({
 	Name = "Punch Fling",
 	Callback = function()
       		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
-  	end    
-})
-
-FeTab:AddButton({
-	Name = "GENESIS FE HUB,
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RScripter/-ECAX-HUB-/main/Genesis%20Fe"))()
   	end    
 })
 
