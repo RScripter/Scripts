@@ -38,7 +38,7 @@ PlayerTab:AddSlider({
 -- Jump height slider
 PlayerTab:AddSlider({
     Name = "Jump Height",
-    Min = 16,
+    Min = 55,
     Max = 500,
     Default = 5,
     Color = Color3.fromRGB(255, 255, 255),
